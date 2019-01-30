@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <include
+        android:id="@+id/miActionBar"
+        layout="@layout/actionbar">
+    </include>
+
+    <TextView
+        android:id="@+id/tituloTV1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/miActionBar"
+        android:text="@string/text_raza1"/>
+
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/jcak"
+        android:layout_below="@id/tituloTV1"/>
+
+    <TextView
+        android:id="@+id/detalleTv1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView1"
+        android:text="5 Likes"
+        />
+    <TextView
+        android:id="@+id/tituloTV2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detalleTv1"
+        android:text="@string/text_raza3"/>
+
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/buldog2"
+        android:layout_below="@id/tituloTV2"/>
+
+    <TextView
+        android:id="@+id/detalleTv2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView2"
+        android:text="5 Likes"
+        />
+    <TextView
+        android:id="@+id/tituloTV3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/detalleTv2"
+        android:text="@string/text_raza6"/>
+
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:srcCompat="@drawable/westh"
+        android:layout_below="@id/tituloTV3"/>
+
+    <TextView
+        android:id="@+id/detalleTv3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/imageView3"
+        android:text="5 Likes"
+        />
+
+</RelativeLayout>

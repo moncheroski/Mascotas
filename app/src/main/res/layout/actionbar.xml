@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="?attr/actionBarSize"
+    android:elevation="@dimen/elevacion_actionb"
+    android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+    app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+    android:orientation="horizontal"
+
+    >
+
+    <Button
+        android:id="@+id/btnAtras"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/paw_print"
+        android:layout_gravity="left"
+                />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/app_name"
+        android:textSize="@dimen/titulo_toolbar"
+        android:textStyle="bold"
+        android:layout_gravity="center"
+        android:fontFamily="casual"
+        />
+
+    <Button
+        android:id="@+id/btnFav"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:drawableRight="@drawable/stars_black"
+        android:layout_gravity="right"
+        android:onClick="siguiente_activity"
+
+        />
+
+
+</android.support.v7.widget.Toolbar>

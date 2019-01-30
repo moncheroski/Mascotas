@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Petagram</string>
+    <string name="text_raza1">Jack Russell</string>
+    <string name="text_raza2">Beagle</string>
+    <string name="text_raza3">Buldog</string>
+    <string name="text_raza4">Chihuahua</string>
+    <string name="text_raza5">Labrador</string>
+    <string name="text_raza6">West Higland</string>
+</resources>
